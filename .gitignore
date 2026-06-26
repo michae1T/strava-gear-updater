@@ -1,0 +1,27 @@
+# Environments & caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Credentials, tokens, and secrets
+.env
+.env.local
+.env.*.local
+.strava_tokens.json
+*tokens*.json
+*credentials*.json
+*secret*
+*.pem
+*.key
+
+# User data, activity exports, and PII
+*.csv
+*.gpx
+*.tcx
+*.fit
+*.log
+data/
+exports/
+backups/
